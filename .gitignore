@@ -1,0 +1,17 @@
+# Ignore report and log files
+output.xml
+log.html
+report.html
+
+# Ignore Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+allure-report/
+allure-results/
+screenshots/
