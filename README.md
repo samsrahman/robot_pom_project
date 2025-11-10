@@ -41,3 +41,23 @@ This project automates web application testing using Robot Framework. It support
 Install all dependencies:
 ```sh
 pip install -r requirements.txt
+
+## Useful Commands
+
+- **Run all tests:**  
+  `robot tests/`
+
+- **Run with environment:**  
+  `robot --variablefile variables/qa.py tests/`
+
+- **Run with tags:**  
+  `robot --include smoke tests/`
+
+- **Run in mobile mode:**  
+  `robot --variable RUN_MODE:mobile tests/`
+
+- **Generate Allure report:**  
+  `allure serve output/allure-results`
+
+- **Install dependencies:**  
+  `pip install -r requirements.txt`
